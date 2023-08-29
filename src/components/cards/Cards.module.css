@@ -1,0 +1,104 @@
+.cardContainer {
+  max-width: 30%;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.topContainer {
+  height: 60%;
+}
+
+.topContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.bottomContainer {
+  padding: 10px;
+  height: 40%;
+}
+
+.bottomContainer h1,
+.titleContainer h1 {
+  margin: 0;
+  font-weight: lighter;
+}
+
+.bottomContainer p,
+.actionsContainer p {
+  margin: 0;
+}
+
+.bottomContainer button,
+.actionsContainer button {
+  padding: 15px 25px;
+  border-radius: 20px;
+  margin-top: 10px;
+  font-size: 15px;
+  border: none;
+  background-color: white;
+  color: blueviolet;
+  cursor: pointer;
+}
+
+.titleContainer {
+  padding: 10px;
+}
+
+.titleContainer h1 {
+}
+
+.actionsContainer {
+  padding: 10px;
+}
+
+.actionsContainer button {
+  margin: 10px;
+}
+
+.formContainer {
+  width: 100%;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form input,
+.form button,
+.form textarea {
+  width: 100%;
+  padding: 15px 25px;
+  margin-bottom: 15px;
+  border-radius: 20px;
+  font-size: 20px;
+  border: none;
+  background-color: #e5e5e5;
+}
+
+.form input:focus,
+.form textarea:focus {
+  outline: 1px solid blueviolet;
+}
+
+.form button {
+  background-color: white;
+  color: blueviolet;
+  cursor: pointer;
+}
+
+.formError {
+  margin: 0;
+  margin-bottom: 5px !important;
+}

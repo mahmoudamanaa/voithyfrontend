@@ -1,0 +1,59 @@
+.container {
+  border: 1px solid #888888;
+  padding: 30px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px #888888;
+  cursor: pointer;
+}
+
+.container h1 {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.container p {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.actions button {
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  font-size: larger;
+  border-radius: 10px;
+  border: none;
+  border-bottom: 1px solid #888888;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.signupFormContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.form input,
+.form button,
+.form textarea {
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  font-size: larger;
+  border-radius: 10px;
+  border: none;
+  border-bottom: 1px solid #888888;
+}
+
+.error {
+  color: crimson !important;
+  margin: 0 !important;
+}

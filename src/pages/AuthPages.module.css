@@ -1,0 +1,52 @@
+.pageContainer {
+  padding: 30px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.childContainer {
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px;
+  width: 100%;
+}
+
+.leftContainer {
+  flex: 1;
+}
+
+.leftContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.rightContainer {
+  flex: 2;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rightContainer h1 {
+  color: gray;
+  font-weight: lighter;
+  margin: 0;
+}
+
+.rightContainer p {
+  cursor: pointer;
+  color: blueviolet;
+  margin: 0;
+}
+
+@media (min-width: 1024px) {
+  .childContainer {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+  }
+}

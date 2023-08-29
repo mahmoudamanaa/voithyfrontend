@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  color: blueviolet;
+  align-items: center;
+}
+
+.navbar h3 {
+  font-size: 20px;
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+.navbar h1 {
+  font-size: 30px;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.navbar button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 20px;
+  border: 1px solid blueviolet;
+  background-color: white;
+  color: blueviolet;
+  cursor: pointer;
+}
